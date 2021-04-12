@@ -5,6 +5,7 @@
   "types": "dist/index.d.ts",
   "author": "John Williamson <johnjwilliamson@live.com>",
   "license": "AGPL-3.0-only",
+  "repository": "https://github.com/Velua/use-anchor.git",
   "private": false,
   "scripts": {
     "prepare": "tsc"
