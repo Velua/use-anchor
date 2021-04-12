@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "John Williamson <johnjwilliamson@live.com>",
-  "license": "GPLv3A",
+  "license": "AGPL-3.0-only",
   "private": false,
   "scripts": {
     "prepare": "tsc"
