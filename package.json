@@ -1,0 +1,19 @@
+{
+  "name": "use-anchor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "John Williamson <johnjwilliamson@live.com>",
+  "license": "GPLv3A",
+  "private": false,
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "anchor-link": "^3.2.3",
+    "vue": "^3.0.11"
+  }
+}
