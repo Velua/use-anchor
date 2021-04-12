@@ -2,6 +2,13 @@
 
 Utilise `anchor-link` easier in Vue 3.
 
+## Properties
+
+- `isAuthenticated` - reactive string of the authenticated user account name else empty if not logged in
+- `logout()` - function to logout
+- `login()` - function to login
+- `transact(simpleAction[])` - function to trigger transactions which accepts SimpleAction type
+
 ## Example
 
 ```
@@ -18,7 +25,13 @@ const link = new AnchorLink({
   ],
 });
 
+Simple Action
 
+{
+  account: string;
+  name: string;
+  data: { ... };
+}
 
 const { login, isAuthenticated, logout, transact } = useAnchor(
     "appName",
@@ -31,10 +44,10 @@ const transfer = () =>
         name: "transfer",
         account: "eosio.token",
         data: {
-        from: "account",
-        to: "account2",
-        memo: "",
-        quantity: "0.0001 EOS",
+         from: "account",
+         to: "account2",
+         memo: "",
+         quantity: "0.0001 EOS",
         },
     },
 ]);
