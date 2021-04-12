@@ -1,6 +1,6 @@
 {
   "name": "use-anchor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "John Williamson <johnjwilliamson@live.com>",
